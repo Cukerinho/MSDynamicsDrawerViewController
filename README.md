@@ -12,7 +12,7 @@
 
 ## So what can I do with it?
 
-### Fling
+### Fling!
 
 ![](https://raw.github.com/monospacecollective/MSDynamicsDrawerViewController/master/Screenshots/fling.gif)
 <!-- Remote -->
@@ -26,21 +26,21 @@
 <!-- ![](Screenshots/open-close.gif) -->
 <!-- Local -->
 
-### Bounce
+### Bounce!
 
 ![](https://raw.github.com/monospacecollective/MSDynamicsDrawerViewController/master/Screenshots/bounce.gif)
 <!-- Remote -->
 <!-- ![](Screenshots/bounce.gif) -->
 <!-- Local -->
 
-### Replace
+### Replace!
 
 ![](https://raw.github.com/monospacecollective/MSDynamicsDrawerViewController/master/Screenshots/replace.gif)
 <!-- remote -->
 <!-- ![](Screenshots/Replace.gif) -->
 <!-- Local -->
 
-# Installation
+# Installation!
 
 Add the following to your `Podfile` and run `$ pod install`.
 
@@ -50,17 +50,17 @@ pod 'MSDynamicsDrawerViewController'
 
  If you don't have CocoaPods installed or integrated into your project, you can learn how to do so [here](http://cocoapods.org).
 
-# Documentation
+# Documentation!
 
-## CocoaDocs
+## CocoaDocs!
 
 Documentation for `MSDynamicsDrawerViewController` is available online via [CocoaDocs](http://cocoadocs.org/docsets/MSDynamicsDrawerViewController/).
 
-## Xcode
+## Xcode!
 
 If you would like to install the `MSDynamicsDrawerViewController` documentation into Xcode, you can do so by first installing [Appledoc](https://github.com/tomaz/appledoc/) (`$ brew install appledoc`), and then by running the `Documentation` target in the `MSDynamicsDrawerViewController.xcodeproj` in the root of repository.
 
-# Example
+# Example!
 
 `Example.xcworkspace` in the `Example` directory serves as an example implementation of `MSDynamicsDrawerViewController`. It uses Cocoapods to link with the `MSDynamicsDrawerViewController` source files in the root directory as a development pod. As such, use the example `xcworkspace` and not the `xcproj`.
 
@@ -77,7 +77,7 @@ UIViewController *paneViewController = [UIViewController new];
 dynamicsDrawerViewController.paneViewController = paneViewController;
 ```
 
-### Replacing the Pane View Controller
+### Replacing the Pane View Controller!
 
 The pane view controller can be replaced with an animation that slides the pane off to the side, replaces it with a new pane, and slides the new pane closed. See the "Replace" `.gif` above to view this animation. You can initiate this animation with the the `setPaneViewController:animated:completion:` method:
 
